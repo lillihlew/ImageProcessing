@@ -1,0 +1,30 @@
+Image Processing Text File
+
+    /***********************************************************************
+     * Names: Lilli Lewis and John Clewett                                 *
+     * Assignment name (Project  Image Processing)                         *
+     *                                                                     *
+     * Assignment for 4/10/23                                              *
+     ***********************************************************************/
+
+    /* *********************************************************************
+     * Academic honesty certification:                                     *
+     *   Written/online sources used                                       *
+     *     none                                                            *
+     *   Help obtained                                                     *
+     *     none                                                            *
+     *   My/our signature(s) below confirms that the above list of sources *
+     *   is complete AND that I/we have not talked to anyone else          *
+     *   (e.g., CSC 161 students) about the solution to this problem       *
+     *                                                                     *
+     *   Signature: Lilli Lewis John Clewett                               *
+     ***********************************************************************/
+1.
+b) The compiler threw an error since we were redefining a predefined
+struct.
+c) 255 is assigned to red, green, and blue in this struct. The pixel struct
+allows you to assign a red, green, and blue value to a pixel, in that
+order.
+e) "display of myArt" is displayed above the image. If the parameter is
+changed to 20, the image is displayed for 20 seconds; if -3, it flashes
+quickly then disappears, and if 0, the image is not displayed.

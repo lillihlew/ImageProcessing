@@ -1,0 +1,106 @@
+
+    /***********************************************************************
+     * Names: Lilli Lewis and John Clewett                                 *
+     * Assignment name (Project  Image Processing)                         *
+     *                                                                     *
+     * Assignment for 4/10/23                                              *
+     ***********************************************************************/
+
+    /* *********************************************************************
+     * Academic honesty certification:                                     *
+     *   Written/online sources used:                                      *
+     *     none                                                            *   
+     *   Help obtained                                                     *
+     *     none                                                            *
+     *   My/our signature(s) below confirms that the above list of sources *
+     *   is complete AND that I/we have not talked to anyone else          *
+     *   (e.g., CSC 161 students) about the solution to this problem       *
+     *                                                                     *
+     *   Signature: Lilli Lewis John Clewett                               *
+     ***********************************************************************/
+
+Test Plan for pic experiments:
+This program should take and display a photo, then spin left and take and
+display a new photo, then turn that second photo to gray and display it,
+then turn left and take a third new photo, then check what each pixel in
+the third photo's max value is, R, G, or B, then set that pixel to its max
+R G or B value and set the other two to 0, and display that new image. We
+will watch the program execute and judge it's success based on the below
+criteria: 
+
+Connect to robot:check, shows a connection message in the terminal
+take and display first photo: check, saw it on the screen
+
+Spin left: check, watched it turn
+
+Take and display second photo:check, saw it on the screen
+
+Convert second photo to graysale and display:check, saw the photo in gray
+on the screen
+
+Spin left:check, watched it turn
+
+Take and display third photo:check, saw the photo on the screen
+
+Set third photo to max rgb values then display it:check, saw it on the
+screen
+(this one is obvious since we wrote it to show the max R, G, and B values,
+so the photo only contains red green and blue).
+
+Disconnect:check, says "stopped and Bluetooth connection closed" on terminal
+
+
+
+
+Test Plan for flip-picture:
+This program should take and display an image, then flip it upside down and
+show the new image. If the image is upside down, then it was successfully
+flipped. We will watch the program execute and judge it's success based on
+the below criteria: 
+
+Connect: check, displayed connection information on terminal
+
+Take and display image: check, watched image appear on screen
+
+Flip image and display new image:check, watched flipped image appear on screen
+
+Disocnnect: check, disconnect information appeared on terminal
+
+
+
+
+Test Plan create negative
+This program should take and display an image, then invert the image to its
+negative self, and display the new image. We will watch the
+program execute and judge it's success based on the below criteria:
+
+Connect:check, displayed connection information on terminal
+
+Take and display image:check, watched image appear on screen
+
+Create negative image and display new image:check, watched negative image
+appear on screen
+
+Disconnect:check, disconnect information appeared on terminal
+
+
+
+Test Plan find brightest
+This program should take and display an image, then print a line about
+where the brightest pixel in the image is located. We will watch the
+program execute and judge it's success based on the below criteria:
+
+Connect:check, displayed connection information on terminal
+
+Take and display image:check, watched image appear on screen
+
+Print line about where brightest pixel is in the image: check, line printed
+to terminal during our test: "The location of the brightest pixel is row 0,
+column 114." which aligns with what we guessed based on the displayed image.
+
+Disconnect:check, disconnect information appeared on terminal
+
+
+
+
+Our programs all work correctly; we see no lingering issues.
